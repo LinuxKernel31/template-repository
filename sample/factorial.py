@@ -20,8 +20,8 @@ import os
 import numpy as np
 import pandas as pd
 
-__author__ = 'Robert Navas'
-__version__ = '0.0.1'
+__author__ = "Robert Navas"
+__version__ = "0.0.1"
 
 factorials = {}
 
