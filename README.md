@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ```
 
     Template Repository for testing
-    Copyright (C) <2020>  <Robert Navas>
+    Copyright 2020  Robert Navas
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
