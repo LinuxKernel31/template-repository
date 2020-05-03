@@ -20,26 +20,28 @@ import os
 import numpy as np
 import pandas as pd
 
+__author__ = 'Robert Navas'
+__version__ = '0.0.1'
+
 factorials = {}
 
+
 class Person:
-
     def __init__(self, **kwargs):
-        self.nose = kwargs['nose']
-        self.eyes = kwargs['eyes']
-        self.weight = kwargs['weight']
+        self.nose = kwargs["nose"]
+        self.eyes = kwargs["eyes"]
+        self.weight = kwargs["weight"]
 
-        
 
 def factorial(n):
 
     if n in factorials:
         return factorials[n]
-    
+
     if n == 1:
         return 1
     else:
-        factors =  n  * factorial(n-1)
+        factors = n * factorial(n - 1)
 
     factorials[n] = factors
 
@@ -48,10 +50,11 @@ def factorial(n):
 
 def main():
 
-    person = Person(nose='matulis', eyes='brown', weight=74)
-    
+    person = Person(nose="matulis", eyes="brown", weight=74)
+
     print(person.nose)
     print(person.eyes)
-    
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     main()
