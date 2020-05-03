@@ -32,6 +32,9 @@ class Person:
         self.eyes = kwargs["eyes"]
         self.weight = kwargs["weight"]
 
+    def get_weight(self):
+        return self.weight
+
 
 def factorial(n):
 
